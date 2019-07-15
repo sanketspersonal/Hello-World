@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Audi\Audi.csproj" />
+    <ProjectReference Include="..\BMW\BMW.csproj" />
+    <ProjectReference Include="..\CarsInterfaces\CarsInterfaces.csproj" />
+    <ProjectReference Include="..\CarsProvider\CarsProvider.csproj" />
+    <ProjectReference Include="..\CommonSolutions\CommonSolutions.csproj" />
+    <ProjectReference Include="..\Jaguar\Jaguar.csproj" />
+  </ItemGroup>
+
+</Project>
