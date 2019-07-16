@@ -66,6 +66,8 @@ namespace CarFactory
             //    lstTypes.Add(type);
             //}
             //AppsObjectsBinding.InitializeTypes(lstTypes);
+            
+            // Added some Comments for testing
 
             var carsTypes = new List<string>
             {
