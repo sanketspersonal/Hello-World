@@ -20,5 +20,7 @@ namespace CarFactory
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        //this is comment for testing
     }
 }
